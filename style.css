@@ -2,20 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 #personajes {
-    /* Complete el CSS aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+
 }
 
 .personaje {
-/* Complete el CSS aqui */
+border: 1px solid #000;
+margin: 10px;
+padding: 10px;
+border-radius: 9px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: rgb(0, 0, 0);
 }
 
 .personaje__nombre {
-/* Complete el CSS aqui */
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
 }
 
 .personaje__imagen {
-/* Complete el CSS aqui */
+border-radius: 9px;
+
 }
