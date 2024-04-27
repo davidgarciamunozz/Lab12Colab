@@ -5,7 +5,10 @@
 }
 
 #personajes {
-    /* Complete el CSS aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+
 }
 
 .personaje {
